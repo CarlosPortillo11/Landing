@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.background{
+    background-image: url(../Images/purple-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav-logo{
+    background: url(../Images/LordHelix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 85px;
+    border-radius: 5px;
+}
+
+.navbar{
+    height: 80px;
+    background-color: transparent;
+}
+
+.navbar-item{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#btn-navbar{
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 15px;
+    margin-left: 650px;
+    width: 150px;
+    height: 50px;
+    margin-top: 18px;
+}
+
+#btn-navbar:hover{
+    cursor: pointer;
+}
+
+.body-title{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
+}
+
+
+#main-title{
+    color: white;
+    margin-left: 50px;
+    text-align: left;
+    font-size: 70px;
+}
+
+#subtitle{
+    color:white;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+#btn-body{
+    width: 170px;
+    height: 75px;
+    background-color: purple;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#btn-body:hover{
+    cursor: pointer;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#body-image{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 135px;
+    margin-bottom: 140px;
+}
+
+
+#img-body{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px; 
+}
